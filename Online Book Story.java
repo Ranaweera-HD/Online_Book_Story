@@ -30,6 +30,48 @@ class OnlineBookStory {
 	System.out.println("\t\t\t\t                                                   ");
 	System.out.println("\t\t\t================================================================");
 	System.out.println("\n");
-	     
+	LocalDate myObj = LocalDate.now();
+	System.out.print("\t\t\t\tEnter Date\t\t: "+myObj);
+	System.out.println("\n");
+	System.out.print("\t\t\t\tCustomer Number\t\t: ");
+	String cusNumber = input.next();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tEnter Customer Name\t: ");
+	String cusName = input.next();
+	System.out.println("\n");
+	System.out.println("\n");
+	System.out.println("\n");
+	System.out.println("\t\t\t\t");
+	System.out.println("\t\t\t\t  ____       _                 _   ___ _                      ");
+	System.out.println("\t\t\t\t / ___|  ___| |__   ___   ___ | | |_ _| |_ ___ _ __ ___  ___  ");
+	System.out.println("\t\t\t\t \\___ \\ / __| '_ \\ / _ \\ / _ \\| |  | || __/ _ \\ '_ ` _ \\/ __| ");
+	System.out.println("\t\t\t\t  ___) | (__| | | | (_) | (_) | |  | || ||  __/ | | | | \\__ \\ ");
+	System.out.println("\t\t\t\t |____/ \\___|_| |_|\\___/ \\___/|_| |___|\\__\\___|_| |_| |_|___/ ");
+	System.out.println("\t\t\t\t                                                              ");
+	System.out.println("\t\t\t============================================================================");
+	System.out.println("\n");
+	System.out.print("\t\t\t\tCR Book (QTY)  \t\t: ");
+	int crbookQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tPen (QTY) \t\t: ");
+	int penQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tPencil (QTY) \t\t: ");
+	int pencilQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tEraser (QTY) \t\t: ");
+	int eraserQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tPencil Box (QTY) \t: ");
+	int pencilboxQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tGlue Bottle (QTY) \t: ");
+	int gluebottleQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tRuler- (MEDIUM) (QTY) \t: ");
+	int rullerQty = input.nextInt();
+	System.out.println("\n");
+	System.out.println("\n");
+
     }
 }
