@@ -72,6 +72,25 @@ class OnlineBookStory {
 	int rullerQty = input.nextInt();
 	System.out.println("\n");
 	System.out.println("\n");
-
+	System.out.println("\t\t\t\t");
+	System.out.println("\t\t\t\t   ___   __  __ _            ___ _                      ");
+	System.out.println("\t\t\t\t  / _ \\ / _|/ _(_) ___ ___  |_ _| |_ ___ _ __ ___  ___  ");
+	System.out.println("\t\t\t\t | | | | |_| |_| |/ __/ _ \\  | || __/ _ \\ '_ ` _ \\/ __| ");
+	System.out.println("\t\t\t\t | |_| |  _|  _| | (_|  __/  | || ||  __/ | | | | \\__ \\ ");
+	System.out.println("\t\t\t\t  \\___/|_| |_| |_|\\___\\___| |___|\\__\\___|_| |_| |_|___/ ");
+	System.out.println("\t\t\t\t                                                        ");
+	System.out.println("\t\t\t\t");
+	System.out.println("\t\t\t============================================================================");
+	System.out.println("\n");
+	System.out.print("\t\t\t\tCalculator (QTY)    : ");
+	int calculatorQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tHighlighters (QTY)  : ");
+	int highlightersQty = input.nextInt();
+	System.out.println("\n");
+	System.out.print("\t\t\t\tCarboard File (QTY) : ");
+	int carboardfileQty = input.nextInt();
+	System.out.println("\n");
+	System.out.println("\n");
     }
 }
